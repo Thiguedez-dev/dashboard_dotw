@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        async function contagem (e) {
+            
+        
+        let quantidade = 10;
+        try {
+            const params = new URLSearchParams(window.location.search);
+
+            const id_turma = params.get("id_turma");
+            console.log("ID turma:"+id_turma);
+
+            const dados = {
+                id_turma: id_turma,
+                quantidade: quantidade
+            }
+
+            const resposta = await fetch('http://localhost/api_contador/backend/endpoints/contagens/post_contagens.php', {
+                method: 'POST',
+                headers: {"Content-Type":"application/json"},
+                body: JSON.stringify(dados)
+            });
+
+            const result = await resposta.json();
+            
+        } catch (error) {
+            console.log('Erro de conexão', error);
+        }
+
+    }
+        
+        contagem();
+    </script>
+</body>
+</html>

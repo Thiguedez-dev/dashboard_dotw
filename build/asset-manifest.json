@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f855e6bc.css",
+    "main.js": "./static/js/main.46c6cd3a.js",
+    "static/js/453.19274c9a.chunk.js": "./static/js/453.19274c9a.chunk.js",
+    "static/media/logo.png": "./static/media/logo.e140d272a4b938f00a1a.png",
+    "static/media/logo_branca.png": "./static/media/logo_branca.b29d9a1051570adb4767.png",
+    "static/media/volte (1).png": "./static/media/volte (1).e30972900d8591bd45f0.png",
+    "static/media/spoon-and-fork (1).png": "./static/media/spoon-and-fork (1).3cb8dcb8e8c453d5e995.png",
+    "index.html": "./index.html",
+    "main.f855e6bc.css.map": "./static/css/main.f855e6bc.css.map",
+    "main.46c6cd3a.js.map": "./static/js/main.46c6cd3a.js.map",
+    "453.19274c9a.chunk.js.map": "./static/js/453.19274c9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.46c6cd3a.js"
+  ]
+}
